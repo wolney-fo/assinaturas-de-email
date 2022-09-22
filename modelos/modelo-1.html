@@ -1,0 +1,74 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;700&display=swap');
+
+    :root {
+        --main-font: 'Khula', sans-serif;
+
+        --primary-font-color: #1a1a1a;
+        --secondary-font-color: #7d7d7d;
+
+        --accent-color: #8602FF;
+        --bar-color: #aeaeae;
+    }
+
+    body {
+        font-family: var(--main-font);
+        margin: 2rem 3rem 2rem 3rem;
+    }
+
+    .personal__info {
+        margin-bottom: 1rem;
+    }
+
+    .personal__info h1 {
+        margin: 0;
+    }
+
+    .personal__info p {
+        color: var(--secondary-font-color);
+        margin: 0;
+    }
+
+    .social-media__icons {
+        border-top: 2px solid #eeeeee;
+        display: inline-block;
+        padding-top: 1rem;
+    }
+
+    .social-media__icons i {
+        font-size: 1.3rem;
+        color: var(--primary-font-color);
+        transition: .3s;
+
+        margin: 0 .5rem 0 .5rem;
+    }
+
+    .social-media__icons i:hover {
+        cursor: pointer;
+        color: var(--accent-color);
+        transition: .3s;
+    }
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="personal__info">
+        <h1 class="name">Michael Anderson</h1>
+        <p class="office">Junior Dev</p>
+        <p class="company__info">Mobile | TechCompany</p>
+        <p class="phrase"><i>~To do or do not. There is no try</i></p>
+    </div>
+
+    <div class="social-media__icons">
+        <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://www.youtube.com/"><i class='bx bxl-youtube' ></i></a>
+        <a href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://www.google.com/"><i class='bx bx-link-external' ></i></a>
+    </div>
+</body>
+</html>
